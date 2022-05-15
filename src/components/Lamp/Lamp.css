@@ -1,0 +1,22 @@
+.lamp{
+    width: 2px;
+    height: 2px;
+}
+@media (min-width: 1px){
+    .lamp{
+        width:4px;
+         height:4px;
+    }
+}
+@media (min-width: 430px){
+    .lamp{
+        width: 6px;
+         height:6px;
+    }
+}
+@media (min-width: 1025px){
+    .lamp{
+        width:7px;
+         height:7px;
+    }
+}

@@ -1,0 +1,43 @@
+
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.container *{
+    margin: 0.2em 0.3em 0em 0em;
+    font-size: 0.8em;
+}
+.textTask{
+    white-space: nowrap;
+}
+#inputBox{
+    outline: none;
+}
+#inputBox,
+#inputBox:focus{
+    max-width: 5em;
+    border-radius: 50px;
+    border: 1px solid grey;
+    color: black;
+}
+#yellowText{
+    font-style: italic;
+    color:rgb(255, 174, 0);
+}
+@media (min-width: 1px){
+    .container{
+        font-size: 12px;
+    }
+}
+@media (min-width: 430px){
+    .container{
+        font-size: 25px;
+    }
+}
+@media (min-width: 1025px){
+    .container{
+        font-size: 35px;
+    }
+}
